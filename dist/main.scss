@@ -1,0 +1,90 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.position-fixed {
+  z-index: 10 !important;
+}
+
+.st {
+  height: 400px !important;
+  background-position: top center !important;
+  position: relative !important;
+  object-fit: cover !important;
+}
+
+.st1 {
+  background-image: url(./image/photo6.jpg) !important;
+}
+
+.st2 {
+  background-image: url(./image/photo7.jpg) !important;
+}
+
+.st3 {
+  background-image: url(./image/photo8.jpg) !important;
+}
+
+.st div {
+  opacity: 0% !important;
+  width: 100% !important;
+  transition: 0.5s !important;
+}
+
+.st:hover.st div {
+  opacity: 100% !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.fs {
+  transition: 0.5s !important;
+}
+
+.fs:hover {
+  transform: scale(130%) !important;
+}
+
+.purple {
+  background-color: #091e3e !important;
+}
+
+.ss {
+  transition: 0.5s !important;
+}
+
+.ss:hover {
+  transform: translate(5%) !important;
+}
+
+.c1 {
+  background-image: url(./image/photo1.jpg) !important;
+  height: 120vh !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top center !important;
+}
+
+.c2 {
+  background-image: url(./image/photo2.jpg) !important;
+  height: 120vh !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top center !important;
+}
+
+.abbg {
+  background-image: url(./image/photo1.jpg) !important;
+  height: 80vh !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top center !important;
+}
+
+.cbg {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+// Then add additional custom code here
