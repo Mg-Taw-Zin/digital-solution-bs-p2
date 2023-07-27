@@ -5,6 +5,10 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+* {
+  scroll-behavior: smooth;
+}
+
 .position-fixed {
   z-index: 10 !important;
 }

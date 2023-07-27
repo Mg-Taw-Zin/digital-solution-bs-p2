@@ -25,15 +25,17 @@
   </head>
 
   <body>
-    <!-- header section -->
+    <!-- header start -->
 
     <header>
-      <div class="bg-white position-fixed container-fluid">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary mx-lg-4 my-lg-3">
+      <!--  navbar section start-->
+
+      <section class="bg-white position-fixed container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-lg-4 py-lg-2">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><i class="bi bi-person-lines-fill"></i> Start Up</a
-            >
+            <a class="navbar-brand" href="#">
+              <i class="bi bi-person-lines-fill"></i> Start Up
+            </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -49,12 +51,11 @@
               class="collapse navbar-collapse justify-content-end"
               id="navbarNavDropdown"
             >
-              <ul class="navbar-nav text-center">
+              <ul
+                class="navbar-nav d-flex align-items-center text-center gap-1 gap-sm-2"
+              >
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
+                  <a class="nav-link" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
@@ -62,7 +63,7 @@
                   <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-primary" href="service.html"
+                  <a class="nav-link active text-primary" href="service.html"
                     >Service</a
                   >
                 </li>
@@ -76,11 +77,21 @@
                   <a class="nav-link" href="contact.html">contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2 border-primary"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-primary" type="submit">
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </form>
                 </li>
                 <li class="nav-item">
-                  <div class="bg-primary">
-                    <a class="nav-link" href="proversion.html"
+                  <div class="btn btn-sm btn-primary">
+                    <a class="nav-link text-white" href="proversion.html"
                       >Download Pro Version</a
                     >
                   </div>
@@ -89,10 +100,12 @@
             </div>
           </div>
         </nav>
-      </div>
+      </section>
+
+      <!--  navbar section end-->
     </header>
 
-    <!-- header section -->
+    <!-- header end -->
 
     <!-- main section start -->
 
@@ -450,7 +463,7 @@
         <!-- home button start  -->
         <div class="position-fixed" style="bottom: 50px; right: 50px">
           <a href="#header">
-            <i class="bi bi-arrow-up text-white fs-3 py-1 px-2 bg-primary"></i
+            <i class="bi bi-arrow-up text-white fs-5 btn btn-primary"></i
           ></a>
         </div>
         <!-- home button end -->
