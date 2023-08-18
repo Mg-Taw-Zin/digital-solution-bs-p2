@@ -11982,7 +11982,6 @@ textarea.form-control-lg {
 * {
   scroll-behavior: smooth;
   font-family: "SF Compact Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  border: 1px solid black !important;
 }
 
 .position-fixed {
@@ -12058,7 +12057,7 @@ textarea.form-control-lg {
 
 .abbg {
   background-image: url(./image/photo1.jpg) !important;
-  height: 80vh !important;
+  height: 100vh !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top center !important;
